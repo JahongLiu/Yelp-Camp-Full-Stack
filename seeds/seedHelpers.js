@@ -1,0 +1,45 @@
+module.exports.descriptors = [
+    'Morning',
+    'Sunset',
+    'Sunrise',
+    'Reflecting',
+    'Cinematic',
+    'Busy',
+    'Secret',
+    'Bright',
+    'Iconic',
+    'Famous',
+    'Oriental',
+    'Unbeaten',
+    'Historical',
+    'Beautiful',
+    'Quaint',
+    'Wide',
+    'Symmetric',
+    'Crowded'
+]
+
+module.exports.places = [
+    'Point',
+    'View',
+    'Summit',
+    'Shores',
+    'Spot',
+    'Skyline',
+    'Building',
+    'Bridge',
+    'Coast',
+    'Beach',
+    'Harbor',
+    'Rooftop',
+    'Tower',
+    'Bay',
+    'Park',
+    'Overlook',
+    'Peak',
+    'Scene',
+    'Monument',
+    'Cityscape',
+    'Venue'
+]
+
