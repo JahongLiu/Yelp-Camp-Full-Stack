@@ -2,8 +2,6 @@ if (process.env.NODE_ENV !== "production") {
     require('dotenv').config();
 }
 
-
-
 require('dotenv').config();
 
 console.log(process.env.SECRET)
@@ -99,6 +97,7 @@ app.use(
           'https://cdn.jsdelivr.net',
           'https://stackpath.bootstrapcdn.com',
           'https://api.mapbox.com',
+          'https://kit.fontawesome.com',
           "'unsafe-inline'",
           "'unsafe-eval'",
         ],
@@ -116,11 +115,14 @@ app.use(
           'https://stackpath.bootstrapcdn.com',
           'https://cdn.jsdelivr.net',
           'https://api.mapbox.com',
+          'https://ka-f.fontawesome.com',
+          "'unsafe-inline'",
         ],
         connectSrc: [
           "'self'",
           'https://api.mapbox.com',
           'https://events.mapbox.com',
+          'https://ka-f.fontawesome.com',
         ],
       },
     })
