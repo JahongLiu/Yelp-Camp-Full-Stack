@@ -60,9 +60,25 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #f8f9fa; /* Change this to your desired background color */
-  transform: translateY(
-    100vh
-  ); /* This translates the second page below the original page */
-  padding: 1rem;
+  background-color: #f8f9fa;
+  transform: translateY(100vh);
+  padding: 0 1rem; /* Change padding-top to 0 */
+}
+
+.second-page h2 {
+  margin: 2rem 0; /* Add margin-top to move the title down */
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
 }
